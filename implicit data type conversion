@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+ int x=50;
+ float y=60;
+x=y;
+ printf("value of y=%f",y);
+  printf("value of x=%d",x); 
+}

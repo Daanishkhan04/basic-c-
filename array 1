@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+ int a[4];
+ a[0]=7;
+ a[1]=10;
+ a[2]=4;
+ a[3]=9;    
+ printf("%d ",a[0]);
+ printf("%d ",a[1]);
+ printf("%d ",a[2]);
+ printf("%d ",a[3]);
+ 
+
+}

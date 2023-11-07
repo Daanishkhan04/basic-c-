@@ -1,0 +1,65 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+//*function with no argument and no return value
+void add()
+{
+    printf("welcome to c program");
+}
+ int main()
+{
+    add();
+}
+//*function with argument and no return value
+void add(int a,int b)
+{
+    int c;
+    c=a+b;
+    printf("%d",c);
+}
+  int main()
+  {
+      int x=4;
+      int y=5;
+      add(x,y);
+  }
+    
+//*funtion with no argument and return value
+int add()
+{
+    int a,b,c;
+    a=5;
+    b=6;
+    c=a+b;
+    return (c);
+}
+int main()
+{
+    int z;
+    z=add();
+    printf("%d",z);
+}
+
+//*funtion with argument and return value
+int add(int x,int y)
+{
+    int z;
+    z=x+y;
+    return(z);
+}
+int main()
+{
+    int z;
+    z=add(4,5);
+    printf("%d",z);
+}
+
+
+
+
+
+
+
+
+
+
+
